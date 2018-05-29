@@ -1,7 +1,29 @@
 body {
-  background-color: #ff0000;
+  background-color: #000000;
   color: #0000FF;
 }
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 100%;
+  text-align: left;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {color:#0070BB; } /* unvisited */
+a:visited {color:#0070BA; } /* visited */
 
 nav {
   background-color: rgba(0,0,0,.5);
