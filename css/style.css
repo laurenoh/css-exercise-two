@@ -1,29 +1,38 @@
 body {
-  background-color: #000000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #999;
 }
 
 h1 {
   font-family: sans-serif;
-  font-size: 2em
+  font-size: 2em;
+  padding-bottom: 20px;
 }
 
 h3 {
   font-size: 1.3em;
+  padding-bottom: 20px;
 }
 
 p {
   font-size: 100%;
   text-align: left;
   line-height: 1.2;
+  padding-bottom: 20px;
+}
+
+figcaption{
+  font-size: .6em;
+  padding: 10px 0px 10px 0px;
 }
 
 a {
   text-decoration: none;
 }
 
-a:link {color:#0070BB; } /* unvisited */
-a:visited {color:#0070BA; } /* visited */
+a:hover{
+  color: orange;
+}
 
 nav {
   background-color: rgba(0,0,0,.5);
